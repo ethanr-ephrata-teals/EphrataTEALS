@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Shuffler {
-    public <T> T[] shuffle(T[] array) {
-        List<T> list = Arrays.asList(array);
+public class CardShuffler {
+    public Card[] shuffle(Card[] array) {
+        List<Card> list = Arrays.asList(array);
         Collections.shuffle(list);
 		return list.toArray(array);
     }
